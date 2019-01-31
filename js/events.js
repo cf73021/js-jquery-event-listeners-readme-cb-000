@@ -19,7 +19,7 @@ function submitIt(){
 }
 
 function pressIt(){
-  $(document).on("keydown", function(){
-    
+  $(document).on("keydown", function(key){
+
   })
 }
