@@ -4,7 +4,7 @@ function getIt(){
 }
 
 function frameIt(){
-  $("img").addClass("tasty");
+
 }
 $(document).ready(function(){
 
@@ -13,7 +13,7 @@ $('p').on("click", function(){
 });
 
 $('img').on("load", function(){
-  frameIt()
+  $("img").addClass("tasty");
 })
 
 });
