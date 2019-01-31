@@ -4,7 +4,6 @@ function getIt(){
 }
 
 
-$(document).ready(function(){
 
 $('p').on("click", function(){
   getIt()
@@ -15,4 +14,4 @@ function frameIt(){
     $("img").addClass("tasty");
   })
 }
-});
+
